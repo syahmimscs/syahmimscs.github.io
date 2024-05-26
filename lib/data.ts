@@ -55,21 +55,21 @@ export const projectsData = [
   {
     title: "Gym Daddy",
     description:
-      "I worked as a full-stack developer on this project. It is a gym management system made up of multiple microservices. It has features like user authentication, CRUD operations, and notification functionalities",
+      "I worked as a full-stack developer on a comprehensive gym management system, which is architected using multiple microservices to ensure scalability, maintainability, and efficient performance. The system is designed to manage various gym-related functionalities including user authentication, class bookings, queue management, and notifications",
     tags: ["Vue.js", "Golang", "Docker","Flask","Redis","gRPC","Kafka"],
     imageUrl: gym,
   },
   {
     title: "Recipe Daddy",
     description:
-      "I worked as a full-stack developer on this project. A web app that allows users to search for recipes based on ingredients they have. It also has features like user authentication, saving recipes, and scheduling meals.",
+      "I worked as a full-stack developer on this project. A web app that allows users to search for recipes based on ingredients they have. It also has features like user authentication, saving recipes, and scheduling meals",
     tags: ["Vue.js", "Python", "Django","Javascript","PostgreSQL"],
     imageUrl: recipe,
   },
   {
-    title: "Ascenda Employee Manage System",
+    title: "Ascenda Employee Management System",
     description:
-      "I worked as a frontend developer on this project. It is a web app that allows employees to manage their personal information, and perform certain actions based on their roles.",
+      "I worked as a frontend developer on this project. It is a web app that allows employees to manage their personal information, and perform certain actions based on their roles",
     tags: ["Cognito", "React.js", "Amplify","Express.js","MongoDB","AWS"],
     imageUrl: ascenda,
   },
