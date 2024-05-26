@@ -55,7 +55,7 @@ export const projectsData = [
   {
     title: "Gym Daddy",
     description:
-      "I worked as a full-stack developer on a comprehensive gym management system, which is architected using multiple microservices to ensure scalability, maintainability, and efficient performance. The system is designed to manage various gym-related functionalities including user authentication, class bookings, queue management, and notifications",
+      "I worked as a full-stack developer on a microservices-based gym management system, handling user authentication, class bookings, queue management, and notifications",
     tags: ["Vue.js", "Golang", "Docker","Flask","Redis","gRPC","Kafka"],
     imageUrl: gym,
   },
