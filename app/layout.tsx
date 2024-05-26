@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Syahmim Personal Portfolio",
   description:
-    "Syahmim is a software engineer based in Singapore. He is currently a penultimate student in Singapore Management University majoring Software Engineering.",
+    "Syahmim is a software engineer based in Singapore. He is currently a penultimate student in Singapore Management University majoring Software Engineering with a second major in Artificial Intelligence (AI).",
 };
 
 export default function RootLayout({

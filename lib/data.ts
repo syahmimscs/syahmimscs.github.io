@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Software Developer Intern",
     location: "SCHNEIDER ELECTRIC",
     description:
-      "Worked on implementing new features, writing tests, and fixing bugs based on company requirements. Developed a deeper understanding of the integration between software solutions and hardware systems. Automated testing and deployment processes.",
+      "Working on implementing new features, writing tests, and fixing bugs based on company requirements. Developing a deeper understanding of the integration between software solutions and hardware systems. Automated testing and deployment processes.",
     icon: React.createElement(CgWorkAlt),
     date: "MAY 2024 - PRESENT",
   }
@@ -63,7 +63,7 @@ export const projectsData = [
     title: "Recipe Daddy",
     description:
       "I worked as a full-stack developer on this project. A web app that allows users to search for recipes based on ingredients they have. It also has features like user authentication, saving recipes, and scheduling meals.",
-    tags: ["Vue.js", "Python", "Django","Bootstrap","Javascript","PostgreSQL"],
+    tags: ["Vue.js", "Python", "Django","Javascript","PostgreSQL"],
     imageUrl: recipe,
   },
   {
