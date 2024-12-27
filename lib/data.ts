@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "Software Engineer Intern",
     location: "Lumens",
     description:
-      "Developed dynamic and interactive web applications using React, a front-end framework, and leveraged Express, a back-end framework alongside Node.js. Employed PostgreSQL as preferred database as well. Cooperated directly with developers, and end-users to detail and rank product requirements, encompassing advanced feature sets, intuitive user interfaces, and robust technical specifications, guaranteeing development of software solutions tailored to address specific market demands and enhance user satisfaction.",
+      "Developed dynamic and interactive web applications using React for the front end and Express with Node.js for the back end. Utilised PostgreSQL as the primary database to ensure efficient and reliable data management. Collaborated closely with developers and end-users to gather, prioritise, and refine product requirements. This process encompassed advanced feature design, intuitive user interfaces, and robust technical specifications, resulting in tailored software solutions that addressed specific market needs and elevated user satisfaction.",
     icon: React.createElement(FaReact),
     date: "Jun 2023 - Aug 2023",
     tags: ["React", "Express", "Node.js", "PostgreSQL"],
@@ -63,26 +63,20 @@ export const projectsData = [
     imageUrl: dota,
   },
   {
-    title: "Gym Daddy",
-    description:
-      "I worked as a full-stack developer on a microservices-based gym management system, handling user authentication, class bookings, queue management, and notifications",
-    tags: ["Vue.js", "Golang", "Docker","Flask","Redis","gRPC","Kafka"],
-    imageUrl: gym,
-  },
-  {
-    title: "Recipe Daddy",
-    description:
-      "I worked as a full-stack developer on this project. A web app that allows users to search for recipes based on ingredients they have. It also has features like user authentication, saving recipes, and scheduling meals",
-    tags: ["Vue.js", "Python", "Django","Javascript","PostgreSQL"],
-    imageUrl: recipe,
-  },
-  {
     title: "Ascenda Employee Management System",
     description:
-      "I worked as a frontend developer on this project. It is a web app that allows employees to manage their personal information, and perform certain actions based on their roles",
+      "Developed a web application that allows employees to manage their personal information, and perform certain actions based on their roles.",
     tags: ["Cognito", "React.js", "Amplify","Express.js","MongoDB","AWS"],
     imageUrl: ascenda,
   },
+  {
+    title: "Gym Daddy",
+    description:
+      "Contributed as a full-stack developer to a microservices-based gym management system, implementing features such as user authentication, class bookings, queue management, and real-time notifications.",
+    tags: ["Vue.js", "Golang", "Docker","Flask","Redis","gRPC","Kafka"],
+    imageUrl: gym,
+  },
+  
 ] as const;
 
 export const skillsData = [
