@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import recipe from "@/public/recipe.png";
 import gym from "@/public/gym.png";
 import ascenda from "@/public/ascenda.png";
+import dota from "@/public/dota.png";
 
 export const links = [
   {
@@ -34,24 +35,33 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer Intern",
-    location: "LUMENS",
+    title: "Software Developer Intern",
+    location: "Schneider Electric",
     description:
-      "Developed dynamic and interactive web applications using React, a front-end framework, and leveraged Express, a back-end framework alongside Node.js. Employed PostgreSQL as preferred database as well",
-      icon: React.createElement(FaReact),
-    date: "JUN 2023 - AUG 2023",
+      "Collaborated with a team of engineers to implement new features, created 10 test cases, and executed 90+ verification tests. Detected and resolved bugs, ensuring precise alignment with product and company requirements. Automated, refactored and improved testing and deployment processes by leveraging Jenkins and existing software tools, reducing manual intervention and increasing overall efficiency.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2024 - Dec 2024",
+    tags: ["Python", "Testing", "Automation", "Jenkins"],
   },
   {
-    title: "Software Developer Intern",
-    location: "SCHNEIDER ELECTRIC",
+    title: "Software Engineer Intern",
+    location: "Lumens",
     description:
-      "Working on implementing new features, writing tests, and fixing bugs based on company requirements. Developing a deeper understanding of the integration between software solutions and hardware systems. Automated testing and deployment processes.",
-    icon: React.createElement(CgWorkAlt),
-    date: "MAY 2024 - PRESENT",
-  }
+      "Developed dynamic and interactive web applications using React, a front-end framework, and leveraged Express, a back-end framework alongside Node.js. Employed PostgreSQL as preferred database as well. Cooperated directly with developers, and end-users to detail and rank product requirements, encompassing advanced feature sets, intuitive user interfaces, and robust technical specifications, guaranteeing development of software solutions tailored to address specific market demands and enhance user satisfaction.",
+    icon: React.createElement(FaReact),
+    date: "Jun 2023 - Aug 2023",
+    tags: ["React", "Express", "Node.js", "PostgreSQL"],
+  },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "DOTA Tournament Management System",
+    description:
+      "Built a backend system for DOTA tournaments, handling player registration, matchmaking, and rankings with Glicko. Deployed using Docker to ensure scalability and reliability.",
+    tags: ["Java","Spring Boot", "PostgreSQL", "Docker","Kafka"],
+    imageUrl: dota,
+  },
   {
     title: "Gym Daddy",
     description:
@@ -78,6 +88,7 @@ export const projectsData = [
 export const skillsData = [
   "Python",
   "Java",
+  "Golang",
   "C",
   "HTML",
   "CSS",
@@ -95,12 +106,16 @@ export const skillsData = [
   "PostgreSQL",
   "Django",
   "Framer Motion",
-  "Golang",
   "Docker",
-  "SQL",
+  "MySQL",
   "PHP",
   "NetLogo",
+  "Kafka",
+  "gRPC",
+  "Tensorflow",
   "Pandas",
   "Pytorch",
+  "Jenkins",
+  "Spring Boot",
 
 ] as const;
