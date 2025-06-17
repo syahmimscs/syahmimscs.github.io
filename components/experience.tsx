@@ -16,17 +16,21 @@ import React from "react";
 export default function Experience() {
   const { ref } = useSectionInView("Experience", 0.5);
   const { theme } = useTheme();
+
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
+    <section
+      id="experience"
+      ref={ref}
+      className="scroll-mt-28 mb-28 sm:mb-40 relative"
+    >
       <SectionHeading>My experience</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor={theme === "light" ? "#9ca3af" : "#ffffff66"}>
         {experiencesData.map((item: Experience, index: number) => (
           <VerticalTimelineElement
             key={index}
             contentStyle={{
               background:
                 theme === "light" ? "#f3f4f6" : "rgba(255,255,255,0.05)",
-              border: "1px solid rgba(0,0,0,0.05)",
               textAlign: "left",
               padding: "1.3rem 2rem",
             }}
@@ -39,14 +43,15 @@ export default function Experience() {
             date={item.date}
             icon={
               <div className="icon-wrapper">
-                <Image
-                  src={item.icon}
-                  alt={item.location}
-                  layout="intrinsic"
-                  width={64} /* Matches 4rem = 64px */
-                  height={64} /* Matches 4rem = 64px */
-                  objectFit="cover"
-                />
+                <div style={{ position: "relative", width: 64, height: 64 }}>
+                  <Image
+                    src={item.icon}
+                    alt={item.location}
+                    fill
+                    sizes="64px"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
               </div>
             }
             iconStyle={{

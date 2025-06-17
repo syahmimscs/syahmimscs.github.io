@@ -51,9 +51,9 @@ export const experiencesData: Experience[] = [
     title: "Software Engineer Intern",
     location: "Crédit Agricole CIB",
     icon: CreditAgricoleLogo,
-    date: "Jan 2025 - Present",
-    description: "In progress",
-    tags: ["C#", ".NET", "Typescript", "Playwright", "Angular"],
+    date: "Jan 2025 - Jun 2025",
+    description: "Developed and integrated 130+ automated test cases using Playwright and Cucumber (BDD), enhancing test coverage and deployment confidence. Implemented parallel execution to reduce non-regression testing time by 60%, automated report uploads to S3, and developed a full-stack reporting interface using a .NET backend and Angular frontend. Performed sprint-based bug triaging and root cause analysis of critical regression issues, proposed a feature prioritisation framework, and collaborated with the team to refine QA processes, significantly reducing the recurrence of defects.",
+    tags: ["C#", ".NET", "Typescript", "Playwright", "Angular", "Cucumber", "S3"],
   },
   {
     title: "Software Developer Intern",
