@@ -56,7 +56,7 @@ export const experiencesData: Experience[] = [
     date: "Aug 2025 - Present",
     description:
       "In Progress",
-    tags: ["C#",".NET", "React.js", "Vite", "MySQL", "AWS S3"],
+    tags: ["C#", ".NET", "React.js", "Python", "MySQL", "AWS S3"],
   },
   {
     title: "Software Engineer Intern",
@@ -64,7 +64,7 @@ export const experiencesData: Experience[] = [
     icon: GosoftLogo,
     date: "Jun 2025 - Aug 2025",
     description:
-      "Designed and optimised data import pipelines for the Smart Visit platform using Go, PostgreSQL, and AWS S3, improving processing time by 90% through batch uploads and parallelism. Migrated the frontend build system from RSBuild to Vite as part of Module Federation initiatives, increasing build speeds and developer productivity. Collaborated with the team to deliver scalable backend services and high-quality integrations for 7‑Eleven Thailand’s enterprise solutions.",
+      "Optimised data import from AWS S3 to PostgreSQL using Go, reducing processing time by 90%+ via batch uploads and parallel processing. Integrated Rsbuild-produced components with a Vite frontend without manual type declarations, ensuring compatibility across differing build systems and reducing manual work by 30%.",
     tags: ["Go", "React.js", "Vite", "PostgreSQL", "AWS S3", "Module Federation"],
   },
   {
@@ -72,26 +72,26 @@ export const experiencesData: Experience[] = [
     location: "Crédit Agricole CIB",
     icon: CreditAgricoleLogo,
     date: "Jan 2025 - Jun 2025",
-    description: "Developed and integrated 130+ automated test cases using Playwright and Cucumber (BDD), enhancing test coverage and deployment confidence. Implemented parallel execution to reduce non-regression testing time by 60%, automated report uploads to S3, and developed a full-stack reporting interface using a .NET backend and Angular frontend. Performed sprint-based bug triaging and root cause analysis of critical regression issues, proposed a feature prioritisation framework, and collaborated with the team to refine QA processes, reducing the recurrence of defects.",
-    tags: ["C#", ".NET", "Typescript", "Playwright", "Angular", "Cucumber", "AWS S3"],
+    description: "Identified long regression testing cycle times and implemented parallel test execution, developing a full-stack .NET Core + Angular reporting dashboard integrated with AWS S3, reducing testing time by 60%. Automated 130+ business analyst-defined test cases using Playwright, Cucumber BDD, and a robust test automation framework, increasing test coverage and deployment confidence in the CI/CD pipeline. Streamlined QA processes by leading bug triaging and introducing a validated prioritisation framework to address misprioritised regression issues, reducing recurring defects.",
+    tags: ["C#", ".NET Core", "TypeScript",  "Angular","Playwright", "Cucumber", "AWS S3"],
   },
   {
     title: "Software Developer Intern",
     location: "Schneider Electric",
     description:
-      "Designed and executed over 90 functional verification tests on embedded devices, uncovering key defects and ensuring compliance with product and company standards. Refactored and optimised a large automated testing codebase to improve scalability, maintainability, and facilitate knowledge transfer for new engineers. Additionally, I developed automated test scripts using Python and Selenium and integrated them into the Jenkins CI/CD pipeline, which reduced manual testing effort.",
+      "Designed and executed 90+ functional verification tests on embedded devices, identifying high-impact defects and ensuring compliance with product and company requirements. Refactored and optimised a large automated testing codebase to enhance scalability, maintainability, and knowledge transfer for new engineers. Developed automated test scripts using Python and Selenium and configured them to be executed through the Jenkins CI/CD pipeline, reducing manual testing effort and enabling continuous testing.",
     icon: SchneiderElectricLogo,
     date: "May 2024 - Dec 2024",
-    tags: ["Python", "Testing", "Automation", "Jenkins"],
+    tags: ["Python", "Selenium", "Automation", "Testing", "Jenkins"],
   },
   {
     title: "Software Engineer Intern",
     location: "Lumens",
     description:
-      "Built and delivered a full‑stack web application using React, Node.js (Express), and PostgreSQL, improving employee onboarding efficiency by 15%. Developed Telegram chatbot integrations to automate notifications, enhancing accessibility and user engagement. Additionally, resolved data inconsistencies between frontend and backend services and implemented multilingual translation services, which improved overall reliability and user experience.",
+      "Built and delivered a full-stack web application using React, Node.js (Express), and PostgreSQL, improving employee onboarding efficiency by 15%. Engineered Telegram chatbots for automated notifications and fixed frontend–backend data inconsistencies with multilingual support, enhancing accessibility, engagement, and reliability.",
     icon: LumensLogo,
     date: "Jun 2023 - Aug 2023",
-    tags: ["React.js", "Express.js", "Node.js", "PostgreSQL"],
+    tags: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Telegram Bot API"],
   },
 ];
 
