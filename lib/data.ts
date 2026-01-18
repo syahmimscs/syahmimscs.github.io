@@ -11,6 +11,7 @@ import LumensLogo from "@/public/lumens.png";
 import CreditAgricoleLogo from "@/public/cacib.png";
 import GosoftLogo from "@/public/gosoft.png";
 import GICLogo from "@/public/gic.png";
+import AutodeskLogo from "@/public/autodesk.png";
 
 export const links = [
   {
@@ -51,12 +52,21 @@ export type Experience = {
 export const experiencesData: Experience[] = [
   {
     title: "Software Engineer Intern",
+    location: "Autodesk",
+    icon: AutodeskLogo,
+    date: "Jan 2026 - Present",
+    description:
+      "Contributing to high-throughput backend services, focusing on reliability, observability and operational best practices",
+    tags: ["Go", "Microservices", "Ruby", "Javascript", "AWS"],
+  },
+  {
+    title: "Software Engineer Intern",
     location: "GIC",
     icon: GICLogo,
-    date: "Aug 2025 - Present",
+    date: "Aug 2025 - Dec 2025",
     description:
-      "In Progress",
-    tags: ["C#", ".NET", "React.js", "Python", "MySQL", "AWS S3"],
+      "Upgraded Docker base images across a large codebase and automated container build/publish workflows, improving build consistency and security posture. Built a backend-driven data refresh feature using .NET, Redis, React, and TanStack Query, enabling users to recache exposure/performance data without full page reloads and reducing downstream loading overhead. Improved operational reliability by integrating Datadog monitoring for Control-M jobs, migrated a legacy .NET batch job to Python, and standardised Python repos with Ruff linting/formatting.",
+    tags: ["C#", ".NET", "React.js", "Python", "OpenShift", "Docker", "ControlM"],
   },
   {
     title: "Software Engineer Intern",
@@ -124,6 +134,7 @@ export const skillsData = [
   "Python",
   "Java",
   "C#",
+  "C++",
   "Golang",
   "C",
   "HTML",
@@ -133,6 +144,7 @@ export const skillsData = [
   "React.js",
   "Next.js",
   "Vue.js",
+  "Angular",
   "Node.js",
   "Spring Boot",
   ".NET",
@@ -140,6 +152,7 @@ export const skillsData = [
   "Django",
   "Express.js",
   "Git",
+  "CI/CD",
   "Tailwind",
   "MySQL",
   "PostgreSQL",
@@ -155,4 +168,6 @@ export const skillsData = [
   "Pandas",
   "Pytorch",
   "Jenkins",
+  "Kubernetes",
+  "AWS",
 ] as const;

@@ -1,17 +1,11 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
-export default function HydrationSafe({ children }: { children: React.ReactNode }) {
-  const [hasMounted, setHasMounted] = useState(false);
-
+export default function BodyClientWrapper({ children }: { children: React.ReactNode }) {
   useEffect(() => {
-    // Only show children after hydration
-    setHasMounted(true);
-    // Optional: Remove vscode class
+    // Remove vscode class after mount if needed
     document.body.classList.remove("vsc-initialized");
   }, []);
-
-  if (!hasMounted) return null;
 
   return <>{children}</>;
 }
