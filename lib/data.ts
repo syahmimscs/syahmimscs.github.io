@@ -61,7 +61,7 @@ export const experiencesData: Experience[] = [
   },
   {
     title: "Software Engineer Intern",
-    location: "GIC",
+    location: "Government of Singapore Investment Corporation (GIC)",
     icon: GICLogo,
     date: "Aug 2025 - Dec 2025",
     description:
@@ -74,12 +74,12 @@ export const experiencesData: Experience[] = [
     icon: GosoftLogo,
     date: "Jun 2025 - Aug 2025",
     description:
-      "Optimised data import from AWS S3 to PostgreSQL using Go, reducing processing time by 90%+ via batch uploads and parallel processing. Integrated Rsbuild-produced components with a Vite frontend without manual type declarations, ensuring compatibility across differing build systems and reducing manual work by 30%.",
+      "Worked in the IT-Enabled Business Process Transformation unit, modernising internal data platforms used across enterprise workflows. Optimised data ingestion from AWS S3 to PostgreSQL using Go concurrency and batch processing, reducing processing time by over 90%. Integrated Rsbuild-produced components with a Vite frontend, improving cross-system compatibility and reducing manual integration effort by 30%.",
     tags: ["Go", "React.js", "Vite", "PostgreSQL", "AWS S3", "Module Federation"],
   },
   {
     title: "Software Engineer Intern",
-    location: "Crédit Agricole CIB",
+    location: "Crédit Agricole Corporate and Investment Bank (CACIB)",
     icon: CreditAgricoleLogo,
     date: "Jan 2025 - Jun 2025",
     description: "Identified long regression testing cycle times and implemented parallel test execution, developing a full-stack .NET Core + Angular reporting dashboard integrated with AWS S3, reducing testing time by 60%. Automated 130+ business analyst-defined test cases using Playwright, Cucumber BDD, and a robust test automation framework, increasing test coverage and deployment confidence in the CI/CD pipeline. Streamlined QA processes by leading bug triaging and introducing a validated prioritisation framework to address misprioritised regression issues, reducing recurring defects.",
